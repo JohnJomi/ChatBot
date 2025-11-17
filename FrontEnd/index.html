@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="eng" dir = "ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ChatBot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class = "ChatBot">
+            <header>
+                <h1>ChatBot</h1>
+            </header>
+            <div id = "chat-box" class = "chat-box">
+                <div class = "message user-message">Hello!</div>
+                <div class = "message bot-message">Hi there! How can I help you?</div>
+            </div>
+            <div class = "input-area">
+                <button id = "clear">Clear Chat</button>
+                <input type = "text" id  = "user-input" placeholder="Type your message here...">
+                <button id = "send-btn">Send</button>
+            </div>
+        </div> 
+
+        <script src="../BackEnd/bot.js"></script>
+        <script src="../BackEnd/server.js"></script>
+    </body>
+    <script src="script.js"></script>
+
+</html>
